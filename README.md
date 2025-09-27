@@ -1,3 +1,5 @@
+<img src="logo.png" alt="Cog Logo" width="180"/>
+
 
 # Cog Programming Language
 
@@ -6,6 +8,7 @@ Cog is a custom programming language written in Python, compiling directly to LL
 ## Requirements
 
 - Python 3.11 or newer
+- Miniconda
 - PyInstaller
 
 ## Getting Started
