@@ -1,42 +1,34 @@
-<img src="CogLogo_Cog.png" alt="Cog Logo" width="180"/>
+# CogLang VS Code Extension
 
+CogLang is a custom programming language. This extension provides syntax highlighting, comment support, and basic language features for `.cog` files in Visual Studio Code.
 
-# Cog Programming Language
+## Features
 
-Cog is a custom programming language written in Python, compiling directly to LLVM via `llvmlite`. It is designed to be simple, fast, and easy to understand.  
+- Syntax highlighting for keywords, strings, numbers, and comments.
+- Single-line (`//`) and multi-line (`/* ... */`) comment support.
+- Highlights `import`, `fn`, `let`, `return`, `if`, `for`, `while`, and other core language keywords.
+- Works with `.cog` files automatically.
 
 ## Requirements
 
-- Python 3.11 or newer
-- Miniconda
-- PyInstaller
+- Visual Studio Code 1.60 or newer.
+- This extension does **not** require any additional dependencies.
 
-## Getting Started
+## Extension Settings
 
-1. Clone the repository:
+This extension does not currently provide custom settings.
 
-   ```bash
-   git clone https://github.com/gitman123323/Cog.git
-   cd Cog
-Build the executable:
+## Known Issues
 
-pyinstaller --onefile main.py --name cog
-This will create a cog.exe (on Windows) or cog (on Linux/macOS) in the dist folder.
+- Only basic syntax highlighting is supported. No IntelliSense yet.
+- Error reporting from the compiler is not fully integrated.
 
-Run a Cog program:
+## Release Notes
 
-```bash
-./cog my_program.cog
-Replace my_program.cog with the .cog file you want to execute.
-````
-Notes:
+### 1.0.0
 
-Cog programs are executed starting from main.py.
+Initial release: syntax highlighting and comment support for CogLang.
 
-For full details on how to use the language, syntax, and examples, check the source code. It is designed to be self-explanatory for anyone with basic Python knowledge.
+---
 
-Treat it like creating a .cog file and executing it, similar to running a small C# or Python script.
-
-Contributing:
-
-If you want to contribute, submit a pull request. All changes will be reviewed before merging. Keep in mind that the project owner retains final approval of all contributions.
+**Enjoy coding in CogLang!**
