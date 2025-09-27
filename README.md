@@ -1,4 +1,4 @@
-<img src="CogLogo_Cog.png" alt="Cog Logo" width="180"/>
+<img src="CogLogo_Cog.png" alt="Cog Logo" width="190"/>
 
 
 # Cog Programming Language
