@@ -37,5 +37,6 @@ For full details on how to use the language, syntax, and examples, check the sou
 
 Treat it like creating a .cog file and executing it, similar to running a small C# or Python script.
 
-Contributing
+Contributing:
+
 If you want to contribute, submit a pull request. All changes will be reviewed before merging. Keep in mind that the project owner retains final approval of all contributions.
