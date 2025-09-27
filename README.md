@@ -16,15 +16,11 @@ Cog is a custom programming language written in Python, compiling directly to LL
    cd Cog
 Build the executable:
 
-bash
-Copier le code
 pyinstaller --onefile main.py --name cog
 This will create a cog.exe (on Windows) or cog (on Linux/macOS) in the dist folder.
 
 Run a Cog program:
 
-bash
-Copier le code
 ./cog my_program.cog
 Replace my_program.cog with the .cog file you want to execute.
 
