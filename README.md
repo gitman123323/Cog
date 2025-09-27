@@ -1,3 +1,6 @@
+![Cog Logo](CogLogo_Cog.png)
+
+
 # Cog Programming Language
 
 Cog is a custom programming language written in Python, compiling directly to LLVM via `llvmlite`. It is designed to be simple, fast, and easy to understand.  
