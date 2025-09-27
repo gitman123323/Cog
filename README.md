@@ -21,9 +21,10 @@ This will create a cog.exe (on Windows) or cog (on Linux/macOS) in the dist fold
 
 Run a Cog program:
 
+```bash
 ./cog my_program.cog
 Replace my_program.cog with the .cog file you want to execute.
-
+````
 Notes
 Cog programs are executed starting from main.py.
 
