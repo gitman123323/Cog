@@ -5,6 +5,7 @@ Cog is a custom programming language written in Python, compiling directly to LL
 ## Requirements
 
 - Python 3.11 or newer
+- Miniconda
 - PyInstaller
 
 ## Getting Started
