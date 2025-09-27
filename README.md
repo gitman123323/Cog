@@ -29,7 +29,8 @@ Run a Cog program:
 ./cog my_program.cog
 Replace my_program.cog with the .cog file you want to execute.
 ````
-Notes
+Notes:
+
 Cog programs are executed starting from main.py.
 
 For full details on how to use the language, syntax, and examples, check the source code. It is designed to be self-explanatory for anyone with basic Python knowledge.
