@@ -1,4 +1,4 @@
-![Cog Logo](CogLogo_Cog.png)
+<img src="CogLogo_Cog.png" alt="Cog Logo" width="150"/>
 
 
 # Cog Programming Language
