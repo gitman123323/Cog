@@ -16,7 +16,7 @@ Cog is a custom programming language written in Python, compiling directly to LL
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/Cog.git
+   git clone https://github.com/gitman123323/Cog.git
    cd Cog
 Build the executable:
 
