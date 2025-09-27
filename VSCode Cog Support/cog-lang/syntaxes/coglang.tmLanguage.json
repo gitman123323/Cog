@@ -1,0 +1,62 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "CogLang",
+  "patterns": [
+    { "include": "#comments" },
+    { "include": "#keywords" },
+    { "include": "#types" },
+    { "include": "#strings" },
+    { "include": "#numbers" }
+  ],
+  "repository": {
+    "comments": {
+      "patterns": [
+        {
+          "name": "comment.line.double-slash.coglang",
+          "match": "//.*$"
+        },
+        {
+          "name": "comment.block.coglang",
+          "begin": "/\\*",
+          "end": "\\*/"
+        }
+      ]
+    },
+    "keywords": {
+      "patterns": [
+        {
+          "name": "keyword.control.coglang",
+          "match": "\\b(if|else|while|for|return|break|continue|import|fn)\\b"
+        }
+      ]
+    },
+    "types": {
+      "patterns": [
+        {
+          "name": "storage.type.coglang",
+          "match": "\\b(int|float|bool|str|void)\\b"
+        }
+      ]
+    },
+    "strings": {
+      "name": "string.quoted.double.coglang",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        {
+          "name": "constant.character.escape.coglang",
+          "match": "\\\\."
+        }
+      ]
+    },
+    "numbers": {
+      "patterns": [
+        {
+          "name": "constant.numeric.coglang",
+          "match": "\\b\\d+(\\.\\d+)?\\b"
+        }
+      ]
+    }
+  },
+  "scopeName": "source.cog"
+}
