@@ -1,0 +1,67 @@
+import "utils/math.cog";
+
+fn display_family() -> void {
+    let my_name: str = "alsohidden";
+    let mom: str = "Mom";
+    let dad: str = "Dad";
+    let brother: str = "hidden";
+    let sister: str = "hidden2";
+    //well ive got other sisters and stuff but aint gonna write them.
+
+
+    let mut random_number: float = 1.5;
+    random_number = 42.42;  // Totally useless reassignment
+    random_number *= 49;
+    
+    let mut x: float = 42.33;
+    let mut y: float = 3.14;
+    let mut z: float = 3.14;
+
+    //y = x;
+    //z = y + x;
+
+    CogPrint("The values are {z} and {y}");
+}
+
+fn hello_world() -> bool {
+    return true;
+}
+
+fn main() -> int {
+    let mut name: str = "hidden";
+    let name_two: str = "hidden";
+
+    let mut greeting_done: bool = false;
+    let mut j: int = 1;
+    let z: bool = (1 == 2); // valid
+
+    //name = "yoo";  // Just for fun
+    
+    CogPrint("hello {name}! Welcome to Cog.");
+    j+=590;
+    CogPrint("i * 3 = {j}");  // Dumb math
+
+    let total: int = add(j, 60);
+    //random math
+    CogPrint("j * rnd = {total}");  // Dumb math
+    
+    for (let mut i: int = 1; i < 10; i++) {
+        if (i == 7) {
+            greeting_done = true;
+            //let total: int = add(i, i + i);
+            //CogPrint("i * 3 = {total}");  // Dumb math
+        }
+        
+        if (i == 8) {
+            break;  // Totally random stop
+        }
+        
+        CogPrint("Counting i = {i}\n");
+    }
+    
+    if (greeting_done == true) {
+        display_family();
+    }
+
+    return i;  // Doesn't matter, just return 0
+}
